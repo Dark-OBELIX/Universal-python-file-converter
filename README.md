@@ -109,7 +109,3 @@ self.target_combo.addItems(['PNG', 'JPEG', 'JPG', 'BMP'])
 ### Step 2: Modify the convert_image() function (if necessary) to handle .bmp images
 However, since Pillow supports BMP natively, no changes should be needed. If you need to perform special handling, use Pillow's .save() function with the appropriate extension (e.g., output_file will automatically handle .bmp).
 
-Conclusion
-With these simple steps, you can easily add more image formats as source and/or target formats. Make sure that Pillow supports the format you're adding, and if any specific handling is required, update the convert_image() function accordingly.
-
-Let me know if you need further assistance or clarifications!
